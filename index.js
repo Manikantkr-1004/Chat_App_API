@@ -11,7 +11,7 @@ let storeData = [];
 
 const io = new Server(server, {
     cors: {
-        origin: "https://chatbymani.netlify.app/"
+        origin: ["https://chatbymani.netlify.app","https://chatbymani.netlify.app/","chatbymani.netlify.app/","www.chatbymani.netlify.app"]
     }
 });
 
